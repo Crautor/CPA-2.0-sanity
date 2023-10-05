@@ -4,8 +4,12 @@ import diretrizes from './diretrizes'
 import membros from './membros'
 import objetivo from './objetivo'
 import pontosPositivos from './pontos-positivos'
+import satisfacaoBiopark from './satisfacao-biopark'
+import satisfacaoCurso from './satisfacao-curso'
+import satisfacaoInfra from './satisfacao-infra'
+import faq from './faq'
 
-export const schemaTypes = [TermosRegulamentos, qrcode, diretrizes, membros, objetivo] 
+export const schemaTypes = [TermosRegulamentos, qrcode, diretrizes, membros, objetivo, pontosPositivos, satisfacaoBiopark, satisfacaoCurso, satisfacaoInfra, faq]
 // # Dados -ok
 // ## Home
 // - Imagem QrCode
@@ -19,7 +23,7 @@ export const schemaTypes = [TermosRegulamentos, qrcode, diretrizes, membros, obj
 // - Descrição
 // - Itens []string
 
-// ## Pontos positivos
+// ## Pontos positivos - ok
 // - Título
 // - Descrição
 
@@ -36,20 +40,20 @@ export const schemaTypes = [TermosRegulamentos, qrcode, diretrizes, membros, obj
 // - Pilares dos IES no SINAES
 
 // # Resultados
-// ## Satisfação com os cursos
+// ## Satisfação com os cursos - ok
 // - Ano
 // - Curso
 // - Porcentagem
 
-// ## Satisfação com o Biopark
+// ## Satisfação com o Biopark - ok
 // - Ano
 // - Porcentagem
 
-// ## Satisfação com a infraestrutura
+// ## Satisfação com a infraestrutura - ok
 // - Ano
 // - Sala
 // - Porcentagem
 
-// # FAQ
+// # FAQ -ok
 // - Pergunta
 // - Resposta

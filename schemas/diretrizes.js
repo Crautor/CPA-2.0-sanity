@@ -4,17 +4,17 @@ export default {
     title: 'Diretrizes',
     fields: [
       {
-        name: 'Origem',
+        name: 'origem',
         type: 'string',
         title: 'Origem'
       },
       {
-        name: 'Titulo',
+        name: 'titulo',
         type: 'string',
         title: 'Título'
       },
       {
-        name: 'Descricao',
+        name: 'descricao',
         type: 'string',
         title: 'Descrição'
       }

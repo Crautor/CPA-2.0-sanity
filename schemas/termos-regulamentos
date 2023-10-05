@@ -1,15 +1,15 @@
 export default {
     name: 'TermosRegulamentos',
     type: 'document',
-    title: 'TermosRegulamentos',
+    title: 'Termos Regulamentos',
     fields: [
       {
-        name: 'Estatuto_CPA',
+        name: 'estatutoCPA',
         type: 'string',
         title: 'Estatuto CPA'
       },
       {
-        name: 'pilares_dos_IES_no_SINAES',
+        name: 'pilaresDosIESnoSINAES',
         type: 'string',
         title: 'Pilares dos IES no SINAES'
       }
