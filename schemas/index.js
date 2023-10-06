@@ -8,8 +8,9 @@ import satisfacaoBiopark from './satisfacao-biopark'
 import satisfacaoCurso from './satisfacao-curso'
 import satisfacaoInfra from './satisfacao-infra'
 import faq from './faq'
+import pilares from './pilares'
 
-export const schemaTypes = [estatutoCPA, qrcode, diretrizes, membros, objetivo, pontosPositivos, satisfacaoBiopark, satisfacaoCurso, satisfacaoInfra, faq]
+export const schemaTypes = [estatutoCPA, pilares, qrcode, diretrizes, membros, objetivo, pontosPositivos, satisfacaoBiopark, satisfacaoCurso, satisfacaoInfra, faq]
 // # Dados -ok
 // ## Home
 // - Imagem QrCode
