@@ -18,10 +18,5 @@ export default {
         type: 'string',
         title: 'Importancia em Avaliar'
       },
-      {
-        name: 'pilaresDosIESnoSINAES',
-        type: 'string',
-        title: 'Pilares dos IES no SINAES'
-      }
     ]
   }
