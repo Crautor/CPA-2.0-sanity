@@ -1,4 +1,4 @@
-import TermosRegulamentos from './termos-regulamentos'
+import estatutoCPA from './estatuto-cpa'
 import qrcode from './qrcode'
 import diretrizes from './diretrizes'
 import membros from './membros'
@@ -9,7 +9,7 @@ import satisfacaoCurso from './satisfacao-curso'
 import satisfacaoInfra from './satisfacao-infra'
 import faq from './faq'
 
-export const schemaTypes = [TermosRegulamentos, qrcode, diretrizes, membros, objetivo, pontosPositivos, satisfacaoBiopark, satisfacaoCurso, satisfacaoInfra, faq]
+export const schemaTypes = [estatutoCPA, qrcode, diretrizes, membros, objetivo, pontosPositivos, satisfacaoBiopark, satisfacaoCurso, satisfacaoInfra, faq]
 // # Dados -ok
 // ## Home
 // - Imagem QrCode

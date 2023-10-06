@@ -1,12 +1,22 @@
 export default {
-    name: 'TermosRegulamentos',
+    name: 'estatutoCPA',
     type: 'document',
-    title: 'Termos Regulamentos',
+    title: 'Estatuto CPA',
     fields: [
       {
         name: 'estatutoCPA',
         type: 'string',
         title: 'Estatuto CPA'
+      },
+      {
+        name: 'conteudoAvaliado',
+        type: 'string',
+        title: 'Conteudo Avaliado'
+      },
+      {
+        name: 'importanciaAvaliar',
+        type: 'string',
+        title: 'Importancia em Avaliar'
       },
       {
         name: 'pilaresDosIESnoSINAES',
