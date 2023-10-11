@@ -1,7 +1,7 @@
 export default {
-    name: 'membros',
+    name: 'membrosDestaque',
     type: 'document',
-    title: 'Membros',
+    title: 'Membros Destaque',
     fields: [
       {
         name: 'imagem',
@@ -23,26 +23,5 @@ export default {
         type: 'string',
         title: 'Cargo'
       },
-      {
-        name: 'subtitulo',
-        type: 'string',
-        title: 'Sub Titulo'
-      },
-      {
-        name: 'titulo',
-        type: 'string',
-        title: 'Titulo'
-      },
-      {
-        name: 'bio',
-        type: 'string',
-        title: 'Bio'
-      },
     ]
   }
-
-//- Destaque
-// - Imagem
-// - Nome
-// - Cargo
-// - Bio

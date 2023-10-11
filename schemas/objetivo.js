@@ -1,7 +1,7 @@
 export default {
     name: 'objetivo',
     type: 'document',
-    title: 'Ojetivo',
+    title: 'Objetivo',
     fields: [
         {
         name: 'descricao',
@@ -17,6 +17,7 @@ export default {
             title: 'Item'
         },
         ]
+        
     }
     ]
 }
