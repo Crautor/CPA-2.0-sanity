@@ -6,17 +6,17 @@ export default {
       {
         name: 'graficosatisfacaobpk',
         type: 'image',
-        title: 'grafico satisfação bpk'
+        title: 'Grafico Satisfação Biopark'
       },
       {
         name: 'graficosatisfacaocurso',
         type: 'image',
-        title: 'grafico satisfação curso'
+        title: 'Grafico Satisfação Cursos'
       },
       {
         name: 'graficosatisfacaoinfra',
         type: 'image',
-        title: 'grafico satisfação infra' 
+        title: 'Grafico Satisfação Infraestrutura' 
       },
     ]
   }

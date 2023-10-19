@@ -4,14 +4,12 @@ import diretrizes from './diretrizes'
 import membros from './membros'
 import objetivo from './objetivo'
 import pontosPositivos from './pontos-positivos'
-import satisfacaoBiopark from './satisfacao-biopark'
-import satisfacaoCurso from './satisfacao-curso'
-import satisfacaoInfra from './satisfacao-infra'
+import graficos from './graficos'
 import faq from './faq'
 import pilares from './pilares'
 import membroDestaque from './membro-destaque'
 
-export const schemaTypes = [estatutoCPA, pilares, qrcode, diretrizes, membros, membroDestaque, objetivo, pontosPositivos, satisfacaoBiopark, satisfacaoCurso, satisfacaoInfra, faq]
+export const schemaTypes = [estatutoCPA, pilares, qrcode, diretrizes, membros, membroDestaque, objetivo, pontosPositivos, graficos, faq]
 // # Dados -ok
 // ## Home
 // - Imagem QrCode
