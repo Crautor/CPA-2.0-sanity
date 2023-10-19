@@ -1,17 +1,22 @@
 export default {
-    name: 'satisfacaoBiopark',
+    name: 'Graficos',
     type: 'document',
-    title: 'Satisfação com o Biopark',
+    title: 'Graficos',
     fields: [
       {
-        name: 'ano',
-        type: 'number',
-        title: 'Ano'
+        name: 'graficosatisfacaobpk',
+        type: 'image',
+        title: 'grafico satisfação bpk'
       },
       {
-        name: 'porcentagem',
-        type: 'string',
-        title: 'Porcentagem'
+        name: 'graficosatisfacaocurso',
+        type: 'image',
+        title: 'grafico satisfação curso'
+      },
+      {
+        name: 'graficosatisfacaoinfra',
+        type: 'image',
+        title: 'grafico satisfação infra' 
       },
     ]
   }
